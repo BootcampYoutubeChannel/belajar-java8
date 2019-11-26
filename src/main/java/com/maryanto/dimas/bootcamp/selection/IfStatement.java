@@ -10,7 +10,7 @@ public class IfStatement {
             System.out.println("Bilangan 1 lebih besar sama dengan bilangan 2");
         }
 
-        System.out.println("Execution finised")
+        System.out.println("Execution finised");
 
     }
 }
