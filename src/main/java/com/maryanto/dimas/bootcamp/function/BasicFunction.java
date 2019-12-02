@@ -14,6 +14,10 @@ public class BasicFunction {
     public static void main(String[] args) {
         System.out.println(String.format("Umur saya sekarang adalah %d", getYearsOld()));
 
+        System.out.println(String.format("Umur saya sekarang adalah %d", getYearsOld()));
+
+        System.out.println(String.format("Umur saya sekarang adalah %d", getYearsOld()));
+
         setNamaLengkap();
     }
 }
