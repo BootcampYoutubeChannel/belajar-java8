@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public class Deposito {
 
-    public BigDecimal setoranAwal(BigDecimal saldo){
+    public BigDecimal setoranAwal(BigDecimal saldo) {
         return saldo;
     }
 

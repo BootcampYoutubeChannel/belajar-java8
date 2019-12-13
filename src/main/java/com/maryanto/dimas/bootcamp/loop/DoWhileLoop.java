@@ -1,12 +1,12 @@
 package com.maryanto.dimas.bootcamp.loop;
 
-public class DoWhileLoop{
+public class DoWhileLoop {
 
     public static void main(String[] args) {
         Integer i = 0;
-        do{
+        do {
             i++;
-            System.out.println("Perulangan dengan do-while ["+i+"]");
-        }while(i < 10);
+            System.out.println("Perulangan dengan do-while [" + i + "]");
+        } while (i < 10);
     }
 }

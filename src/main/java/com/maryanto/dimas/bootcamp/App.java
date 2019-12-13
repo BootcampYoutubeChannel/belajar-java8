@@ -6,7 +6,7 @@ package com.maryanto.dimas.bootcamp;
  */
 public class App {
 
-    public static void main( String[] args ) {
-        System.out.println( "Halo saya sedang belajar Java Programming!" );
+    public static void main(String[] args) {
+        System.out.println("Halo saya sedang belajar Java Programming!");
     }
 }

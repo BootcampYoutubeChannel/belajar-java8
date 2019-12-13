@@ -5,12 +5,12 @@ import java.time.temporal.ChronoUnit;
 
 public class FunctionArgs {
 
-    public static Long getYearsOld(LocalDate date){
+    public static Long getYearsOld(LocalDate date) {
         return ChronoUnit.YEARS.between(date, LocalDate.now());
     }
 
-    public static void setNamaLengkap(String namaLengkap){
-        System.out.println("Nama lengkap saya adalah "+ namaLengkap);
+    public static void setNamaLengkap(String namaLengkap) {
+        System.out.println("Nama lengkap saya adalah " + namaLengkap);
     }
 
     public static void main(String[] args) {

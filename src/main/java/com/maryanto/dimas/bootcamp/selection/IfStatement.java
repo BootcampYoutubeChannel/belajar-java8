@@ -6,7 +6,7 @@ public class IfStatement {
         Integer bil1 = 10;
         Integer bil2 = 20;
 
-        if (bil1 >= bil2){
+        if (bil1 >= bil2) {
             System.out.println("Bilangan 1 lebih besar sama dengan bilangan 2");
         }
 

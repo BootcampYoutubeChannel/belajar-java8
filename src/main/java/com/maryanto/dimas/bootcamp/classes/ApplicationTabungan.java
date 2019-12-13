@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public class ApplicationTabungan {
 
-    public BigDecimal tarikDana(BigDecimal saldo, BigDecimal tarikTunai){
+    public BigDecimal tarikDana(BigDecimal saldo, BigDecimal tarikTunai) {
         return saldo.subtract(tarikTunai);
     }
 
@@ -21,6 +21,7 @@ public class ApplicationTabungan {
         System.out.println(String.format("Setoran awal deposito : %2.0f", setoranAwalDeposito));
 
         ApplicationTabungan appTabungan = new ApplicationTabungan();
-        System.out.println(String.format("Application Penarikan tabungan %2.0f", appTabungan.tarikDana(new BigDecimal(10000), new BigDecimal(5000))));
+        System.out.println(String.format("Application Penarikan tabungan %2.0f",
+                appTabungan.tarikDana(new BigDecimal(10000), new BigDecimal(5000))));
     }
 }

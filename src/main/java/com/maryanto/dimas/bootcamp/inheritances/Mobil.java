@@ -6,14 +6,16 @@ public class Mobil extends Sepeda {
 
     public String getMesin() {
         super.roda = 4;
-        return String.format("Konfigurasi mesin %s jumlah rodanya adalah %s maximum kecepatannya adalah %s", this.mesin, super.roda, this.getKecepatan(20l));
+        return String.format(
+            "Konfigurasi mesin %s jumlah rodanya adalah %s maximum kecepatannya adalah %s", 
+            this.mesin, super.roda, this.getKecepatan(20l));
     }
 
-    public Long getKecepatan(){
+    public Long getKecepatan() {
         return 250l;
     }
 
-    public Long getKecepatan(Long tambahSpeed){
+    public Long getKecepatan(Long tambahSpeed) {
         return this.getKecepatan() + tambahSpeed;
     }
 

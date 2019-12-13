@@ -5,11 +5,11 @@ public class Sepeda {
     protected Integer roda = 2;
     private Long speed = 20l;
 
-    public Long getKecepatan(){
+    public Long getKecepatan() {
         return this.speed;
     }
 
-    public Long getKecepatan(Long tambahSpeed){
+    public Long getKecepatan(Long tambahSpeed) {
         return this.speed + tambahSpeed;
     }
 

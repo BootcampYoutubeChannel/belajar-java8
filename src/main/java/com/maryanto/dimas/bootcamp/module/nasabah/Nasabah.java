@@ -12,5 +12,4 @@ public class Nasabah {
         System.out.println(String.format("Saya menabung sebesar Rp. %2.0f", sayaMenabung));
     }
 
-    
 }

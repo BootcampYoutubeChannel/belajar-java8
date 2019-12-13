@@ -1,6 +1,6 @@
 package com.maryanto.dimas.bootcamp.operator;
 
-public class OperatorMatematika{
+public class OperatorMatematika {
 
     public static void main(String[] args) {
         Integer bil1 = 10;

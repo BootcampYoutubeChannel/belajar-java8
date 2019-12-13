@@ -6,6 +6,6 @@ public class TipeDataNumber {
         Double min = -9_223_372_036_854_775_808.123434d;
         Double max = 9_223_372_036_854_775_807.23434d;
 
-        System.out.println("byte nilai minimumnya adalah "+ min +" dan maximumnya adalah "+ max);
+        System.out.println("byte nilai minimumnya adalah " + min + " dan maximumnya adalah " + max);
     }
 }
