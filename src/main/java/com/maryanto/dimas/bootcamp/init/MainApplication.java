@@ -3,6 +3,7 @@ package com.maryanto.dimas.bootcamp.init;
 public class MainApplication {
 
     public static void main(String[] args) {
-        InitValue value = new InitValue();
+        InitValue value = new InitValue("Dimas");
+        System.out.println(value.getName());
     }
 }
